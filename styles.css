@@ -1,0 +1,30 @@
+section {
+    height: 500px;
+    background-color: mintcream;
+    border: solid black 1px;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    width: 200px;
+}
