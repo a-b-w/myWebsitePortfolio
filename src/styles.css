@@ -49,9 +49,9 @@ p {
 
 .heroArea {
     display: flex;
-    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -80,4 +80,20 @@ p {
 .button:active {
     background-color: azure;
     color: #a9a9a9
+}
+
+.socials {
+    padding-bottom: 200px;
+    justify-content: center;
+}
+
+.social {
+    margin: 20px;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    margin: 30px;
+    display: flex;
 }
