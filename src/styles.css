@@ -85,11 +85,14 @@ p {
 .socials {
     padding-bottom: 200px;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .social {
     margin: 20px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
