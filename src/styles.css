@@ -5,7 +5,6 @@ body {
 section {
     height: 500px;
     background-color: mintcream;
-    border: solid black 1px;
 }
 
 .hero {
@@ -16,8 +15,8 @@ section {
 }
 
 footer {
-    height: 500px;
-    background-color: beige;
+    display: flex;
+    height: inherit;
 }
 
 nav {
@@ -111,9 +110,12 @@ p {
     padding: 80px;
 }
 
-/*.info {
-
-}*/
+.subSectionAlt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
 
 .mugShot {
     width: 300px;
@@ -123,4 +125,15 @@ p {
 .mugShotContainer {
     display: flex;
     align-items: center;
+}
+
+.map-example {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+}
+
+.mapsContainer {
+    display: flex;
+    justify-content: space-around;
 }
