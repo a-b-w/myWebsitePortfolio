@@ -42,6 +42,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: o;
     font-weight: 300;
@@ -99,4 +103,24 @@ p {
     height: 100px;
     margin: 30px;
     display: flex;
+}
+
+.subSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+/*.info {
+
+}*/
+
+.mugShot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.mugShotContainer {
+    display: flex;
+    align-items: center;
 }
