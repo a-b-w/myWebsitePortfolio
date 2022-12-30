@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
+    height: 1000px;
     background-color: mintcream;
 }
 
@@ -37,6 +37,10 @@ ul {
     justify-content: space-around;
     font-size: 30px;
 }
+
+/*ul.show {
+    display: block;
+}*/
 
 li {
     /*text-decoration: none;*/
@@ -130,13 +134,13 @@ p {
 }
 
 .mugShot {
-    width: 300px;
-    border-radius: 150px;
+    width: 400px;
+    border-radius: 200px;
 }
 
 .mugShotContainer {
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 .map-example {
@@ -152,8 +156,13 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
+
+    .subSection {
+        display: block;
+    }
+
     .mapsContainer {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
     }
 }
@@ -178,4 +187,34 @@ p {
 a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+
+    ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2000px;
+        background-color: #1c1d25;
+        color: whitesmoke;
+        padding: 100px;
+        text-align: center;
+    }
 }
