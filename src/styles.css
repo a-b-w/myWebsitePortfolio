@@ -151,6 +151,13 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    .mapsContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image {
     margin-top: 20PX;
     width: 250px;
