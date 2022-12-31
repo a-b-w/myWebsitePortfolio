@@ -34,14 +34,16 @@ nav {
     display: flex;
     justify-content: space-between;
     color: whitesmoke;
+    flex-direction: row;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     width: 500px;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 30px;
+    flex-direction: row;
 }
 
 ul.show {
@@ -80,8 +82,7 @@ p {
     left: 50%;
     margin-left: -40.5px;
     box-shadow: 5px 5px 20px rgb(192, 192, 192);
-    box-
-    background-color: blanchedalmond;
+    background-color: rgb(241, 238, 233);
 }
 
 .heroArea {
@@ -243,7 +244,8 @@ a {
 
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-content: center;
     }
 
     .logo {
