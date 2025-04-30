@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alex West Web Portfolio" />
+    <meta name="keywords" content="GIS, web maps, portfolio, animation" />
+    <meta name="author" content="Alexander West" />
+    <title>A. West | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;600;800&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ced6a5ca41.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <img src="img/abwmapsLogo.png" alt="ABW Maps Logo" class="logo" />
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="resume.pdf" download>Resume</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#ContactMe">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <div class="drone-animation">
+          <img src="img/drone.svg" alt="Animated drone" class="drone" />
+        </div>
+        <div class="hero-text fade-in">
+          <h1>Alexander B West</h1>
+          <p>GIS Analyst & Developer</p>
+          <a href="#aboutMe" class="button">About Me</a>
+        </div>
+        <div class="social-links fade-in">
+          <a href="https://www.twitter.com/almochilimo/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/alexbwest/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/a-b-w" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section id="aboutMe" class="about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hello, my name is Alex West. I'm an aspiring GIS developer and analyst. I graduated from Texas State University (B.S. GIS) and have a strong interest in cartography, remote sensing, and spatial technology. I thrive on using tools like Python, JavaScript, ArcGIS Pro, and ERDAS Imagine to solve real-world problems.</p>
+          <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python, SQL, ArcGIS Pro, ERDAS, Adobe Suite, Git, Linux</p>
+        </div>
+        <div class="about-photo">
+          <img src="img/mugshot.jpg" alt="Alex West" />
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects" class="projects-section">
+      <h2>Portfolio</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide project-card">
+            <img src="img/CTPP.png" alt="CTPP Web Map" />
+            <h3>Web Map (ArcGIS Pro, GEOJSON)</h3>
+            <p>Central Texas Poverty Patterns – interactive map developed with Carlos Soto.</p>
+            <a href="https://a-b-w.github.io/central-texas-poverty-patterns.github.io-master/" target="_blank">View Here</a>
+          </div>
+          <div class="swiper-slide project-card">
+            <img src="img/NeviMap.png" alt="Thematic Map" />
+            <h3>Thematic Map</h3>
+            <p>ArcGIS Pro & Python tutorial showcasing automated workflows.</p>
+            <a href="https://www.loom.com/share/d4f36b8c8822447482d3b7def8d42da8" target="_blank">View Here</a>
+          </div>
+          <div class="swiper-slide project-card">
+            <img src="img/ERDAS.png" alt="Change Map" />
+            <h3>Landcover Change</h3>
+            <p>Story map using PCA on composite imagery to highlight land changes.</p>
+            <a href="https://storymaps.arcgis.com/stories/cc8220d1b9ac4018800f720573c43658?play=true&speed=medium" target="_blank">View Here</a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer id="ContactMe">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:alexanderblakewest@gmail.com">alexanderblakewest@gmail.com</a></p>
+      <p>&copy; 2025 ABW Maps</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
