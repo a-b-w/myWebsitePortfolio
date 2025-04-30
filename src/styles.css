@@ -1,0 +1,270 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: mintcream;
+}
+
+section {
+    height: 1000px;
+    background-color: mintcream;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+    background-color: #1c1d25;
+    color: whitesmoke;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footH {
+    font-size: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 30px;
+    flex-direction: row;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: o;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subtextLink {
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -40.5px;
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+    background-color: rgb(241, 238, 233);
+}
+
+.heroArea {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heroText {
+    margin-left: 80px;
+    Margin-bottom: 200px;
+}
+
+.button {
+    color:#1c1d25;
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: blanchedalmond; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: lightblue;
+}
+
+.button:active {
+    background-color: azure;
+    color: #a9a9a9
+}
+
+.socials {
+    padding-bottom: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 100px;
+    margin: 30px;
+    display: flex;
+}
+
+.subSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.subSectionAlt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.mugShot {
+    width: 165px;
+    border-radius: 35px;
+}
+
+.mugShotContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.map-example {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    background-color: #f3eed9;
+}
+
+.mapsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .subSection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mapsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.project-image {
+    margin-top: 20PX;
+    width: 250px;
+    border: 125px;
+    box-shadow: 5px 5px 20px rgb(192, 192, 192);
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.example-link {
+    text-decoration: none;
+    color: #1c1d25;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2e45;
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .logo {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        margin-top: 1500px;
+        background-color: #1c1d25;
+        color: whitesmoke;
+        padding: 100px;
+    }
+    
+    .footH {
+        font-size: 20px;
+    }
+}
